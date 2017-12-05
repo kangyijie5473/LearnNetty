@@ -14,6 +14,7 @@ public class MainApp {
         Main main = new Main();
         main.addRouteBuilder(new MyRouteBuilder());
         main.run(args);
+        System.out.println("jenkins");
     }
 
 }
